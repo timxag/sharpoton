@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="Description" content="Sharpothon">
+	<meta name="Keywords" content="C#,hackathon,MAI,IT-центр,it-mai,timxag,sharpothon"> 
+	<meta property="og:image" content="https://proglib.io/wp-content/uploads/2017/12/csharp.jpg">
+	<title>Sharpoton</title>
+	<link rel="shortcut icon" type="image/icon" href="assets/images/icon.png" />
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/slick.css" rel="stylesheet">
+	<link id="switcher" href="assets/css/theme-color/jelly-bean-theme.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+
+<body>
+	<header id="mu-hero" class="">
+		<nav class="navbar navbar-fixed-top navbar-default mu-navbar">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+						data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<span class="navbar-brand" style="margin left: 50px" href="index.html"><img src="assets/images/maihack2.png"
+							height="36" alt="logo img"></span>
+					<div class="mu-logo-area">
+						<span class="mu-logo" href="#">MAI HACK<img style="margin-left: 740px" src="assets/images/maihack1.png"
+								height="40" alt="logo img"></span>
+					</div>
+
+
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav mu-menu navbar-right">
+						<li><a href="#mu-hero">Главная</a></li>
+						<li><a href="#mu-about">Подробнее</a></li>
+						<li><a href="#mu-schedule">Расписание</a></li>
+						<!--	<li><a href="#mu-speakers">Мастер-классы</a></li>-->
+						<!--<li><a href="#mu-pricing">Призы</a></li>-->
+						<li><a href="#mu-case">Кейсы</a></li>
+						<li><a href="#mu-sponsors">Партнеры</a></li>
+						<li><a href="#mu-venue">Контакты</a></li>
+						<li>
+							<a  href = "http://t.me/sharpoton_chat" target = "_blank"
+								>Чат участников</a>
+							
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="mu-hero-overlay" style = "width: 100%">
+			<div class="container">
+				<div class="mu-hero-area">
+					<div class="mu-hero-featured-area">
+						<div class="mu-logo-area1">
+							<a class="mu-logo1"><img></a>
+						</div>
+						<div class="mu-hero-featured-content">
+							<h1><strong>C# хакатон</strong></h1>
+							<p class="mu-event-date-line">26 - 28 апреля 2019 года, МАИ
+							</p>
+							<div class="mu-event-counter-area">
+								<div id="mu-event-counter">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main role="main">
+		<section id="mu-about">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mu-about-area">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="mu-about-left">
+										<img class = "testimg" src="assets/images/about.png" >
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="mu-about-right">
+										<h2>MAI C# hackathon</h2>
+										<p>IT-центр Московского авиационного института приглашает Вас принять участие в С# Хакатоне — первом
+											в Москве "шарпотоне".
+											Конкурс проводится для программистов любого уровня подготовки: принять участие может как
+											начинающий программист,
+											так и опытный разработчик.
+											Каждый участник сможет проявить себя, получить незаменимый опыт решения кейсов
+											и научиться пользоваться технологиями Microsoft на новом уровне. </p>
+										<p>Обещаем хорошее настроение и вкусные ланчи! :) </p>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="mu-schedule">
+			<div class="container">
+				<div class="row">
+					<div class="colo-md-12">
+						<div class="mu-schedule-area">
+							<div class="mu-title-area">
+								<h2 class="mu-title">Программа хакатона:</h2>
+							</div>
+							<div class="mu-schedule-content-area">
+								<ul class="nav nav-tabs mu-schedule-menu" role="tablist">
+									<li role="presentation" class="active"><a href="#first-day" aria-controls="first-day" role="tab"
+											data-toggle="tab">1 День / 26 Апреля</a></li>
+									<li role="presentation"><a href="#second-day" aria-controls="second-day" role="tab"
+											data-toggle="tab">2 День / 27 Апреля</a></li>
+									<li role="presentation"><a href="#third-day" aria-controls="third-day" role="tab" data-toggle="tab">3
+											День / 28 Апреля</a></li>
+									<li role="presentation"><a href="#masterclasses" aria-controls="masterclasses" role="tab" data-toggle="tab">Программа мастер-классов</a></li>
+								</ul>
+								<div class="tab-content mu-schedule-content">
+									<div role="tabpanel" class="tab-pane fade mu-event-timeline in active" id="first-day">
+										<ul>
+											<li>
+												<div class="mu-single-event">
+													<p class="mu-event-time">18.00 - 19.00</p>
+													<h3>Регистрация команд</h3>
+												</div>
+											</li>
+											<li>
+												<div class="mu-single-event">
+													<p class="mu-event-time">19.00 - 20.30</p>
+													<h3>– Открытие хакатона, представление кейсов, деление на команды
+													</h3>
+												</div>
+											</li>
+											<li>
+												<div class="mu-single-event">
+													<p class="mu-event-time">20.30</p>
+													<h3>Ужин</h3>
+												</div>
+											</li>
+											<li>
+												<div class="mu-single-event">
+													<p class="mu-event-time">20.30 - 22.00</p>
+													<h3>Свободное общение с экспертами, работа над кейсами</h3>
+												</div>
+											</li>
+										</ul>
+									</div>
+									<div role="tabpanel" class="tab-pane fade mu-event-timeline" id="second-day">
+										<ul>
+												<li>
+														<div class="mu-single-event">
+															<p class="mu-event-time">10.00 - 10.30</p>
+															<h3>Завтрак</h3>
+														</div>
+													</li><li>
+												<div class="mu-single-event">
+													<p class="mu-event-time">10.00 - 20.00</p>
+													<h3>Работа над проектами</h3>
+												</div>
+											</li>
+										<li>
+													<div class="mu-single-event">
+															<!--<img src="assets/images/speaker-4.jpg" alt="event speaker">-->
+															<p class="mu-event-time">10.45 - 11.45</p>
+															<h3>Вводный курс по Azure</h3>
+															<span>By Julia Valentinova</span>
+														</div>
+													</li>
+													<li>
+													<div class="mu-single-event">
+															<!--<img src="assets/images/speaker-4.jpg" alt="event speaker">-->
+															<p class="mu-event-time">12.00 - 13.00</p>
+															<h3> Мастер-класс по Power BI аналитике 
+																</h3>
+															<span>By Samir Akhmed </span>
+														</div>
+													</li>	
+											<li>
+												<div class="mu-single-event">
+													<p class="mu-event-time">13.00 - 14.00</p>
+													<h3>Обед</h3>
+												</div>
+											</li>
+											<li>
+											<div class="mu-single-event">
+																<!--<img src="assets/images/speaker-4.jpg" alt="event speaker">-->
+																<p class="mu-event-time">14.00 - 15.00</p>
+																<h3> Мастер класс по разработке на Xamarin
+																	</h3>
+																<span>By Maksimilian Spiridonov</span>
+															</div>
+														</li>
+														<li>
+																<div class="mu-single-event">
+																					<!--<img src="assets/images/speaker-4.jpg" alt="event speaker">-->
+																					<p class="mu-event-time">15.15 - 16.15</p>
+																					<h3> Мастер класс по Azure ML 
+																						</h3>
+																					<span>By Andrew Nikulkin</span>
+																				</div>
+																			</li>
+											<li>
+												<div class="mu-single-event">
+													<p class="mu-event-time">18.00-19.00</p>
+													<h3>Ужин</h3>
+												</div>
+											</li>
+				
+											<li>
+													<div class="mu-single-event">
+														<p class="mu-event-time">19.00-21.00</p>
+														<h3>Работа над проектами</h3>
+													</div>
+												</li>
+												<li>
+														<div class="mu-single-event">
+															<p class="mu-event-time">21.00</p>
+															<h3>Окончание 2-го дня</h3>
+														</div>
+													</li>
+										</ul>
+									</div>
+									<div role="tabpanel" class="tab-pane fade mu-event-timeline" id="third-day">
+										<ul>
+												<li>
+														<div class="mu-single-event">
+															<p class="mu-event-time">10.00 - 10.30</p>
+															<h3>Завтрак</h3>
+														</div>
+													</li>
+											<li>
+												<div class="mu-single-event">
+													<p class="mu-event-time">10.00 - 13.00</p>
+													<h3>Работа над проектами</h3>
+												</div>
+											</li>
+											
+											<li>
+												<div class="mu-single-event">
+													<p class="mu-event-time">13.00 - 14.00</p>
+													<h3>Обед</h3>
+												</div>
+											</li>
+											<li>
+												<div class="mu-single-event">
+													<p class="mu-event-time">14.00 - 15.00</p>
+													<h3>Презентация МТС</h3>
+												</div>
+											</li>
+											<li>
+												<div class="mu-single-event">
+													<p class="mu-event-time">15.30 - 17.00</p>
+													<h3>Выступление участников</h3>
+												</div>
+											</li>
+											<li>
+												<div class="mu-single-event">
+													<p class="mu-event-time">17.00 - 18.00</p>
+													<h3>Подведение итогов, награждение
+														</h3>
+												</div>
+											</li>
+											
+										</ul>
+									</div>
+									<div role="tabpanel" class="tab-pane fade mu-event-timeline" id="masterclasses">
+										<ul>
+											<li>
+												<div class="mu-single-event">
+													<!--<img src="assets/images/speaker-4.jpg" alt="event speaker">-->
+													<p class="mu-event-time">27 апреля</p>
+													<h3>Вводный курс по Azure</h3>
+													<span>By Julia Valentinova</span>
+												</div>
+											</li>
+											<li>
+												<div class="mu-single-event">
+													<!--<img src="assets/images/speaker-4.jpg" alt="event speaker">-->
+													<p class="mu-event-time">27 апреля</p>
+													<h3>Мастер класс по Power BI аналитике</h3>
+													<span>By Andrew Nikulkin</span>
+												</div>
+											</li>
+											<li>
+												<div class="mu-single-event">
+													<!--<img src="assets/images/speaker-4.jpg" alt="event speaker">-->
+													<p class="mu-event-time">27 апреля</p>
+													<h3>Мастер класс по разработке на Xamarin</h3>
+													<span>By Maksimilian Spiridonov</span>
+												</div>
+											</li>
+											<li>
+												<div class="mu-single-event">
+													<!--<img src="assets/images/speaker-4.jpg" alt="event speaker">-->
+													<p class="mu-event-time">27 апреля</p>
+													<h3>Мастер класс по Azure ML</h3>
+													<span>By Samir Akhmed</span>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="mu-speakers">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mu-speakers-area">
+							<div class="mu-title-area">
+								<h2 class="mu-title">Жюри:</h2>
+							</div>
+							<div class="mu-speakers-content">
+								<div class="mu-speakers-slider">
+									<div class="mu-single-speakers">
+										<img class = "testimg" src="assets/images/speaker-2.png"  alt="speaker img"height = "200" weight = "100" style = "margin: 0 auto;">
+										<div class="mu-single-speakers-info">
+											<h3>Олег Тарасов</h3>
+											<p>Руководитель проектов по разработке МТС.</p>
+										</div>
+									</div>
+									<div class="mu-single-speakers">
+										<img class = "testimg" src="assets/images/speaker-3.jpg" alt="speaker img"height = "200" weight = "100" style = "margin: 0 auto;">
+										<div class="mu-single-speakers-info">
+											<h3>Юрий Клещев</h3>
+											<p>Старший разработчик МТС.</p>
+											
+										</div>
+									</div>
+									<div class="mu-single-speakers">
+										<img class = "testimg" src="assets/images/speaker-4.jpg" alt="speaker img"height = "200" weight = "100" style = "margin: 0 auto;">
+										<div class="mu-single-speakers-info">
+											<h3>Мария Булакина</h3>
+											<p>Руководитель IT-центра МАИ.</p>
+											
+										</div>
+									</div>
+									<div class="mu-single-speakers">
+										<img class = "testimg" src="assets/images/speaker-5.jpg" alt="speaker img"height = "200" weight = "100" style = "margin: 0 auto;">
+										<div class="mu-single-speakers-info">
+											<h3>Александр Шарманов</h3>
+											<p>Директор IT-центра МАИ.</p>
+											
+										</div>
+									</div>
+									<div class="mu-single-speakers">
+										<img class = "testimg" src="assets/images/speaker-2.png"  alt="speaker img"height = "200" weight = "100" style = "margin: 0 auto;">
+										<div class="mu-single-speakers-info">
+											<h3>Олег Тарасов</h3>
+											<p>Руководитель проектов по разработке МТС.</p>
+										</div>
+									</div>
+									<div class="mu-single-speakers">
+										<img class = "testimg" src="assets/images/speaker-3.jpg" alt="speaker img"height = "200" weight = "100" style = "margin: 0 auto;">
+										<div class="mu-single-speakers-info">
+											<h3>Юрий Клещев</h3>
+											<p>Старший разработчик МТС.</p>
+											
+										</div>
+									</div>
+									<div class="mu-single-speakers">
+										<img class = "testimg" src="assets/images/speaker-4.jpg" alt="speaker img"height = "200" weight = "100" style = "margin: 0 auto;">
+										<div class="mu-single-speakers-info">
+											<h3>Мария Булакина</h3>
+											<p>Руководитель IT-центра МАИ.</p>
+											
+										</div>
+									</div>
+									<div class="mu-single-speakers">
+										<img class = "testimg" src="assets/images/speaker-5.jpg" alt="speaker img"height = "200" weight = "100" style = "margin: 0 auto;">
+										<div class="mu-single-speakers-info">
+											<h3>Александр Шарманов</h3>
+											<p>Директор IT-центра МАИ.</p>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+		</section>
+<!--
+		<section id="mu-pricing">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mu-pricing-area">
+
+							<div class="mu-title-area">
+								<h2 class="mu-title">Призы:</h2>
+							</div>
+
+							<div class="mu-pricing-conten">
+								<div class="row">
+
+
+
+									<div class="col-md-4">
+										<div class="mu-single-reg">
+			
+
+											<h3 class="mu-price-title">1 место</h3>
+											<ul>
+												<li>Супер-приз.</li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="mu-single-reg">
+											<h3 class="mu-price-title">2 место</h3>
+											<ul>
+												<li>Приз.</li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="mu-single-reg">
+
+											<h3 class="mu-price-title">3 место</h3>
+											<ul>
+												<li>Приз.</li>
+											</ul>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="mu-register">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mu-register-area">
+
+							<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeY3KQPtRoeP0ajLul4UHSZhURrFv1PZvxWdor4tWCNgHvlow/viewform?embedded=true" width="700" height="400" align="absmiddle">Загрузка...</iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+
+		-->
+		<section id="mu-case">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mu-case-area">
+							<div class="mu-title-area">
+								<h2 class="mu-title" style="color: #f7f7f7;font-size: 35pt;">Кейсы</h2>
+								<p style="color: #f7f7f7;font-size: 15pt;">Описание общее</p>
+							</div>
+							<div class="mu-case-content">
+								<div class="panel-group" id="accordion">
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">
+													<span class="fa fa-angle-down"></span> Кейс от МТС #1
+												</a>
+											</h4>
+										</div>
+										<div id="collapseOne" class="panel-collapse collapse in">
+											<div class="panel-body">
+												<p ><img src="assets/images/xamarin.png" 
+													alt="Azure" align="right" 
+													height="100" style = "margin-right:5%"><br><br>
+													Разработка пользователького клиента с применением фреймворка Xamarin</p>
+												<a href="https://docs.google.com/presentation/d/15UyNN0_kKW3GDWWTsnNxJ7zSuFyDyERlGFRmY331GWo/" target = "_blank">Ссылка на презентацию кейса</a>
+											</div>
+										</div>
+									</div>
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+													<span class="fa fa-angle-up"></span> Кейс от МТС #2
+												</a>
+											</h4>
+										</div>
+										<div id="collapseFour" class="panel-collapse collapse">
+											<div class="panel-body">
+												<p ><img src="assets/images/graphql.png" 
+													alt="Azure" align="right" 
+													height="100" style = "margin-right:5%"><br><br>
+													Применение СУБД GraphQL</p> 
+													<a href="https://docs.google.com/presentation/d/1iLRMF64bXPfY_B7CflOl8wGXkSmMbsMLuHO0AJ-dp_0/" target = "_blank">Ссылка на презентацию кейса</a>
+
+											</div>
+										</div>
+									</div>
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+													<span class="fa fa-angle-up"></span>Кейс от MSP
+												</a>
+											</h4>
+										</div>
+										<div id="collapseTwo" class="panel-collapse collapse">
+											<div class="panel-body">
+												<p ><img src="assets/images/azure.png" 
+													alt="Azure" align="right" 
+													height="100" style = "margin-right:5%"><br><br>
+													Лучшее применение технологий Microsoft</p> 
+													<a href="https://docs.google.com/presentation/d/1czVkpDnSbqbr4KqzKDON6DqVR87AWnCBUcOT8BZfBXQ/" target = "_blank">Ссылка на презентацию кейса</a>
+
+											</div>
+										</div>
+									</div>
+									<!--<div class="panel panel-default">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+													<span class="fa fa-angle-up"></span> Кейс от Dodo пиццы
+												</a>
+											</h4>
+										</div>
+										<div id="collapseThree" class="panel-collapse collapse">
+											<div class="panel-body">
+												<p ><img src="assets/images/cloud.png" 
+													alt="Azure" align="right" 
+													height="100" style = "margin-right:5%"><br><br>
+													Применение технологий Custom vision, Cloud Vision API</p> 
+											</div>
+										</div>
+									</div>
+									-->
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="mu-sponsors">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mu-sponsors-area">
+
+							<div class="mu-title-area">
+								<h2 class="mu-title">Партнеры:</h2>
+							</div>
+							<div class="mu-sponsors-content">
+								<div class="row">
+									
+									<div class="col-md-2">
+										<div class="mu-sponsors-single" >
+											<a href="https://mts.ru/" target="_blank"><img src="assets/images/sponsor-logo-2.png"
+													alt="Brand Logo"></a>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="mu-sponsors-single" >
+											<a href="https://mai.ru/itmai/" target="_blank"><img src="assets/images/sponsor-logo-3.png"
+													alt="Brand Logo"></a>
+										</div>
+									</div>
+									
+									<div class="col-md-2">
+										<div class="mu-sponsors-single" >
+											<a href="https://www.microsoft.com/ru-ru/msp/Home/Country" target="_blank"><img
+													src="assets/images/sponsor-logo-4.png"  alt="Brand Logo"></a>
+										</div>
+									</div>
+									<div class="col-md-2 ">
+										<div class="mu-sponsors-single" style = "margin-top:-7%">
+											<a href="https://vr-ring.ru/" target="_blank"><img src="assets/images/sponsor-logo-6.png"
+													alt="Brand Logo"   weight = "auto"></a>
+										</div>
+									</div>
+									<div class="col-md-3 ">
+										<div class="mu-sponsors-single" style = "margin-top: 20%">
+											<a href="https://croc.ru/" target="_blank"><img src="assets/images/sponsor-logo-1.png"
+													alt="Brand Logo"   weight = "auto"></a>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--
+<section id="mu-contact">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="mu-contact-area">
+
+					<div class="mu-title-area">
+					</div>
+
+					<section id="mu-venue">
+						<div class="mu-venue-area">
+							<div class="row">
+								
+								<div class="col-md-6">
+									<div class="mu-venue-map">
+											<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2241.9747170704427!2d37.49802651949684!3d55.81103931418832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54837ca747699%3A0xddf76528b536d2bb!2z0JzQvtGB0LrQvtCy0YHQutC40Lkg0JDQstC40LDRhtC40L7QvdC90YvQuSDQmNC90YHRgtC40YLRg9GC!5e0!3m2!1sru!2sru!4v1551650022777" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+									</div>
+								</div>
+					
+								<div class="col-md-6">
+									<div class="mu-venue-address">
+										<h2>МАИ <i class="fa fa-chevron-right" aria-hidden="true"></i></h2>
+										<h3>IT центр МАИ</h3>
+										<h4>Волоколамское шоссе, д. 4, г. Москва, 125993</h4>
+									</div>
+								</div>
+					
+							</div>
+						</div>
+					</section>
+			
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+-->
+		<section id="mu-venue">
+			<div class="mu-venue-area">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="mu-venue-map">
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2241.9747170704427!2d37.49802651949684!3d55.81103931418832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54837ca747699%3A0xddf76528b536d2bb!2z0JzQvtGB0LrQvtCy0YHQutC40Lkg0JDQstC40LDRhtC40L7QvdC90YvQuSDQmNC90YHRgtC40YLRg9GC!5e0!3m2!1sru!2sru!4v1551650022777"
+								width="100%" height="600" frameborder="0" style="border:1; margin-top:5%; margin-left:2%;" allowfullscreen></iframe>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="mu-venue-address">
+							<h1>МАИ <i class="fa fa-chevron-right" aria-hidden="true"></i></h2>
+							<h2>IT центр МАИ</h3>
+							<h3>Волоколамское шоссе, д.4к6, г. Москва, 125993</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer id="myFooter">
+		<div class="container collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+			<!--<div class="collapse navbar-collapse">-->
+			<ul>
+				<li><a align="center" href="#mu-about">Hacathon info</a></li>
+				<li><a href="https://mai.ru/" target="_blank">MAI</a></li>
+				<li><a href="http://faq8.ru/" target="_blank"> faq8</a></li>
+				<li><a href="https://it-mai.timepad.ru/event/934116/" target = "_blank">Timepad</a></li>
+				<li><a href="http://vk.com/timxag" target="_blank">Feedback</a></li>
+			</ul>
+			<div class="container">
+				<div class="mu-footer-area">
+					<div class="mu-footer-bottom">
+						<p class="mu-copy-right">&copy; Created by <a rel="nofollow" href="http://timxag.ru/index.html"
+								target="blank">timxag</a>. </p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-social">
+				<a href="mailto:ta@timxag.ru" class="social-icons"><i class="fa fa-send"></i></a>
+			<a href="https://vk.com/itmai" target="_blank" class="social-icons"><i class="fa fa-vk"></i></a>
+			<a href="https://www.facebook.com/itcmai/" target="_blank" class="social-icons"><i class="fa fa-facebook"></i></a>
+			<a href="https://www.instagram.com/itcmai/" target="_blank" class="social-icons"><i
+					class="fa fa-instagram"></i></a>
+					<a href="tel:+79996259633" class="social-icons"><i class="fa fa-phone"></i></a>
+		</div>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/slick.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.countdown.min.js"></script>
+	<script type="text/javascript" src="assets/js/app.js"></script>
+	<script type="text/javascript" src="assets/js/custom.js"></script>
+</body>
+
+</html>
